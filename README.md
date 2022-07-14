@@ -1,0 +1,2 @@
+# CognitoSignupAndGenerateToken
+CognitoSignupAndGenerateToken
