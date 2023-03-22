@@ -21,12 +21,12 @@ import com.amazonaws.services.lambda.runtime.Context;
 import com.amazonaws.services.lambda.runtime.RequestHandler;
 
 public class CognitoUserRegistration implements RequestHandler<APIGatewayProxyRequest, APIGatewayProxyResponse> {
-	private String AccessKey = "AKIAYUCMZEDM5Q3UW7ZH";
-	private String SecretKey = "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";
+	private String AccessKey = "";
+	private String SecretKey = "";
 
-	private String AppClientId = "6t6iamdp92fp3mbrpfua79rtq1";
-	private String userName = "demo@gmail.com";
-	private String password = "Test@123";
+	private String AppClientId = "";
+	private String userName = "";
+	private String password = "";
 
 	APIGatewayProxyResponse response = new APIGatewayProxyResponse();
 
